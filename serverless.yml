@@ -5,7 +5,7 @@ plugins:
 
 custom:
   pythonRequirements:
-    dockerizePip: true
+    dockerizePip: false
 
 provider:
   name: aws
