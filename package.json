@@ -1,0 +1,25 @@
+{
+  "name": "python-hello-sls-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python -m unittest discover -s tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwang/python-hello-sls-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwang/python-hello-sls-plugin/issues"
+  },
+  "homepage": "https://github.com/fwang/python-hello-sls-plugin#readme",
+  "dependencies": {
+    "serverless-python-requirements": "^3.0.9"
+  }
+}
