@@ -101,7 +101,7 @@ If you are deploying using [SEED](https://seed.run], you don't need to enable **
 ### Support
 
 - Send us an [email](mailto:contact@anoma.ly) if you have any questions
-- Open a [new issue](https://github.com/AnomalyInnovations/serverless-es7/issues/new) if you've found a bug or have some suggestions.
+- Open a [new issue](https://github.com/AnomalyInnovations/serverless-stack-python-starter/issues/new) if you've found a bug or have some suggestions.
 - Or submit a pull request!
 
 ### Maintainers
