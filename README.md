@@ -38,7 +38,7 @@ $ npm install
 
 ### Usage
 
-Install a Python dependency
+Install a Python dependency (for ex, [Requests](http://docs.python-requests.org/en/master/))
 
 ```sh
 $ pip install requests
@@ -87,7 +87,7 @@ Deploy a single function
 $ serverless deploy function --function hello
 ```
 
-To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda image](https://github.com/lambci/docker-lambda). And enable enable **dockerizePip** in **serverless.yml**.
+To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). And enable enable **dockerizePip** in **serverless.yml**.
 
 ```yml
 # enable dockerize Pip
