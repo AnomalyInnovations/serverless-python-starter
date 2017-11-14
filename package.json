@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fwang/python-hello-sls-plugin.git"
+    "url": "git+https://github.com/AnomalyInnovations/serverless-stack-python-starter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fwang/python-hello-sls-plugin/issues"
+    "url": "https://github.com/AnomalyInnovations/serverless-stack-python-starter/issues"
   },
-  "homepage": "https://github.com/fwang/python-hello-sls-plugin#readme",
+  "homepage": "https://github.com/AnomalyInnovations/serverless-stack-python-starter#readme",
   "dependencies": {
     "serverless-python-requirements": "^3.0.9"
   }
