@@ -1,63 +1,109 @@
-## Steps
+# Serverless Stack Python Starter
 
-1. Install Python
-```
-$ brew install python3
+A simple starter Python project for [Serverless Framework](https://serverless.com/framework/) that uses [virtualenv](https://pypi.python.org/pypi/virtualenv), [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements), and [unittest](https://docs.python.org/2/library/unittest.html#module-unittest).
+
+### Requirements
+
+- [Install Python](https://www.python.org/downloads/release/python-363/)
+- [Install Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+- [Install the Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/)
+- [Configure your AWS CLI](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
+
+### Installation
+
+Create a new project
+
+```sh
+$ serverless install --url https://github.com/AnomalyInnovations/serverless-stack-python-starter --name my-project
 ```
 
-1. Install virtualenv
-```
-$ pip install virtualenv
-```
+Create a virtual environment for your project
 
-1. Create a virtual environment for your project
-```
-$ cd my_project_folder
+```sh
+$ cd my-project
 $ virtualenv -p /usr/bin/python3.6 venv
 ```
 
-1. Activate virtual environment
-```
+Activate the virtual environment
+
+```sh
 $ source venv/bin/activate
 ```
 
-1. Install Serverless plugin: serverless-python-requirements
-```
+Install Serverless plugin: serverless-python-requirements
+
+```sh
 $ npm install
 ```
 
-1. Install Python dependencies
+### Usage
+
+Install a Python dependency
+
+```sh
+$ pip install requests
 ```
+
+Store a reference to your dependencies
+
+```sh
+$ pip freeze > requirements.txt
+```
+
+Re-install your dependencies from your requirements
+
+```sh
 $ pip install -r requirements.txt
 ```
 
-1. Run tests
+Run your tests
 ```
 $ python -m unittest discover -s tests
 ```
 
-1. Invoke locally
+Invoke a function locally
+
 ```
 $ serverless invoke local -f hello
 ```
 
-1. Deploy locally
-To deploy locally, you need to install docker and enable **dockerizePip** in **serverless.yml**. This requires docker installed on your machine.
-```
-$ vi serverless.yml
+Deactivate your virtual environment
 
+```sh
+$ deactivate
+```
+
+### Deploying
+
+Deploy your project
+
+```sh
+$ serverless deploy
+```
+
+Deploy a single function
+
+```sh
+$ serverless deploy function --function hello
+```
+
+To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda image](https://github.com/lambci/docker-lambda). And enable enable **dockerizePip** in **serverless.yml**.
+
+```yml
 # enable dockerize Pip
 custom:
   pythonRequirements:
     dockerizePip: true
-
-$ serverless deploy
 ```
 
-1. Deploy via Seed  
-Do not enable **dockerizePip** as the Seed build environment mimics the Lambda runtime.
+If you are deploying using [SEED](https://seed.run], you don't need to enable **dockerizePip** or install Docker. [SEED](https://seed.run) does it automatically.
 
-1. Deactivate virtual environment
-```
-$ deactivate
-```
+### Support
+
+- Send us an [email](mailto:contact@anoma.ly) if you have any questions
+- Open a [new issue](https://github.com/AnomalyInnovations/serverless-es7/issues/new) if you've found a bug or have some suggestions.
+- Or submit a pull request!
+
+### Maintainers
+
+Serverless ES7 Service is maintained by Frank Wang ([@fanjiewang](https://twitter.com/fanjiewang)) & Jay V ([@jayair](https://twitter.com/jayair)). [**Subscribe to our newsletter**](http://eepurl.com/cEaBlf) for updates. Send us an [email](mailto:contact@anoma.ly) if you have any questions.
