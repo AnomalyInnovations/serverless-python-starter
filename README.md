@@ -56,15 +56,15 @@ Re-install your dependencies from your requirements
 $ pip install -r requirements.txt
 ```
 
-Run your tests
-```
-$ python -m unittest discover -s tests
-```
-
 Invoke a function locally
 
 ```
 $ serverless invoke local -f hello
+```
+
+Run your tests
+```
+$ python -m unittest discover -s tests
 ```
 
 Deactivate your virtual environment
