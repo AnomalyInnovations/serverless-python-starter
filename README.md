@@ -31,6 +31,11 @@ $ npm install
 $ pip install -r requirements.txt
 ```
 
+1. Run tests
+```
+$ python -m unittest discover -s tests
+```
+
 1. Invoke locally
 ```
 $ serverless invoke local -f hello
