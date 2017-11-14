@@ -14,7 +14,7 @@ provider:
   region: us-east-1
 
 functions:
-  numpy:
+  hello:
     handler: handler.hello
     events:
       - http:
