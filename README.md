@@ -49,7 +49,7 @@ custom:
 $ serverless deploy
 ```
 
-1. Deploy via Seed
+1. Deploy via Seed  
 Do not enable **dockerizePip** as the Seed build environment mimics the Lambda runtime.
 
 1. Deactivate virtual environment
