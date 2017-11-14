@@ -87,7 +87,7 @@ Deploy a single function
 $ serverless deploy function --function hello
 ```
 
-To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). And enable enable **dockerizePip** in **serverless.yml**.
+To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
 
 ```yml
 # enable dockerize Pip
@@ -96,7 +96,7 @@ custom:
     dockerizePip: true
 ```
 
-If you are deploying using [SEED](https://seed.run], you don't need to enable **dockerizePip** or install Docker. [SEED](https://seed.run) does it automatically.
+**Note**, if you are deploying using [SEED](https://seed.run), you don't need to enable **dockerizePip** or install Docker. [SEED](https://seed.run) does it automatically.
 
 ### Support
 
