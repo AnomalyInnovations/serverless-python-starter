@@ -1,6 +1,6 @@
 # Serverless Stack Python Starter
 
-A simple starter Python project for [Serverless Framework](https://serverless.com/framework/) that uses [virtualenv](https://pypi.python.org/pypi/virtualenv), [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements), and [unittest](https://docs.python.org/2/library/unittest.html#module-unittest).
+A Python starter project for [Serverless Framework](https://serverless.com/framework/) with support for dependencies (using [virtualenv](https://pypi.python.org/pypi/virtualenv) and [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements)) and tests (using [unittest](https://docs.python.org/2/library/unittest.html#module-unittest)).
 
 ### Requirements
 
