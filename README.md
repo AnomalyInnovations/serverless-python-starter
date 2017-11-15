@@ -38,7 +38,7 @@ $ npm install
 
 ### Usage
 
-Install a Python dependency (for ex, [Requests](http://docs.python-requests.org/en/master/))
+Install a Python dependency (for example, [Requests](http://docs.python-requests.org/en/master/))
 
 ```sh
 $ pip install requests
