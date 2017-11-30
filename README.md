@@ -2,6 +2,10 @@
 
 A Python starter project for [Serverless Framework](https://serverless.com/framework/) with support for dependencies (using [virtualenv](https://pypi.python.org/pypi/virtualenv) & [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements)) and tests (using [unittest](https://docs.python.org/2/library/unittest.html#module-unittest)).
 
+### Demo
+
+A demo version of this service is hosted on AWS - [`https://udshnoxw3k.execute-api.us-east-1.amazonaws.com/dev`](https://udshnoxw3k.execute-api.us-east-1.amazonaws.com/dev)
+
 ### Requirements
 
 - [Install Python](https://www.python.org/downloads/release/python-363/)
