@@ -1,4 +1,4 @@
-# Serverless Stack Python Starter
+# Serverless Python Starter
 
 A Python starter project for [Serverless Framework](https://serverless.com/framework/) with support for dependencies (using [virtualenv](https://pypi.python.org/pypi/virtualenv) & [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements)) and tests (using [unittest](https://docs.python.org/2/library/unittest.html#module-unittest)).
 
@@ -14,7 +14,7 @@ A Python starter project for [Serverless Framework](https://serverless.com/frame
 Create a new project
 
 ```sh
-$ serverless install --url https://github.com/AnomalyInnovations/serverless-stack-python-starter --name my-project
+$ serverless install --url https://github.com/AnomalyInnovations/serverless-python-starter --name my-project
 ```
 
 Create a virtual environment for your project
@@ -101,7 +101,7 @@ custom:
 ### Support
 
 - Send us an [email](mailto:contact@anoma.ly) if you have any questions
-- Open a [new issue](https://github.com/AnomalyInnovations/serverless-stack-python-starter/issues/new) if you've found a bug or have some suggestions.
+- Open a [new issue](https://github.com/AnomalyInnovations/serverless-python-starter/issues/new) if you've found a bug or have some suggestions.
 - Or submit a pull request!
 
 ### Maintainers
