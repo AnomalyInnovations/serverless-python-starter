@@ -1,4 +1,4 @@
-# Serverless Python Starter
+# Serverless Python Starter [![Seed Status](https://api.seed.run/serverless-stack/serverless-python-starter/stages/dev/build_badge)](https://console.seed.run/serverless-stack/serverless-python-starter)
 
 A Python starter project for [Serverless Framework](https://serverless.com/framework/) with support for dependencies (using [virtualenv](https://pypi.python.org/pypi/virtualenv) & [serverless-python-requirements](https://github.com/UnitedIncome/serverless-python-requirements)) and tests (using [unittest](https://docs.python.org/2/library/unittest.html#module-unittest)).
 
